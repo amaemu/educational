@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Free educational resources including articles, videos, e-books, and downloadable materials.">
+    <meta name="keywords" content="educational resources, articles, videos, e-books, downloads, learning materials">
+    <title>Resources - Educational Hub</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">Educational Hub</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+            <div class="nav-buttons">
+                <button id="login-btn">Login</button>
+                <button id="signup-btn">Sign Up</button>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main">
+        <section class="resources-header">
+            <h1>Free Educational Resources</h1>
+            <p>Access a wealth of learning materials to enhance your knowledge and skills.</p>
+        </section>
+
+        <section class="resource-search">
+            <div class="search-bar">
+                <input type="text" placeholder="Search resources..." id="resource-search-input">
+                <button id="resource-search-btn">Search</button>
+            </div>
+        </section>
+
+        <section class="resource-categories">
+            <h2>Categories</h2>
+            <div class="category-buttons">
+                <button class="category-btn active" data-category="all">All</button>
+                <button class="category-btn" data-category="articles">Articles</button>
+                <button class="category-btn" data-category="videos">Videos</button>
+                <button class="category-btn" data-category="ebooks">E-books</button>
+                <button class="category-btn" data-category="downloads">Downloads</button>
+            </div>
+        </section>
+
+        <section class="resources-list">
+            <div class="resources-grid" id="resources-container">
+                <!-- Resources will be populated by JavaScript -->
+            </div>
+        </section>
+
+        <section class="discussion-forum">
+            <h2>Discussion Forum</h2>
+            <div id="forum-container">
+                <div class="forum-post">
+                    <h3>Share Your Learning Tips</h3>
+                    <p>Have a study technique that works for you? Share it with the community!</p>
+                    <button id="add-comment-btn">Add Comment</button>
+                </div>
+                <div id="comments-section">
+                    <!-- Comments will be loaded here -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Educational Hub</h3>
+                <p>Empowering learners worldwide with quality education.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">FB</a>
+                    <a href="#" aria-label="Twitter">TW</a>
+                    <a href="#" aria-label="LinkedIn">LI</a>
+                    <a href="#" aria-label="YouTube">YT</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Educational Hub. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/resources.js"></script>
+</body>
+</html>
